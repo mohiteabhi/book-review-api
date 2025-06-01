@@ -19,4 +19,5 @@ This API allows users to:
 - (Optional) **curl** for testing API endpoints.
 
 ---
-
+## Installation & Setup
+### Clone the Repository
