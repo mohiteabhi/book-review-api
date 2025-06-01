@@ -22,7 +22,7 @@ This API allows users to:
 # Installation & Setup
 ### Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/book-review-api.git
+git clone https://github.com/mohiteabhi/book-review-api.git
 cd book-review-api
 ```
 ### Install Dependencies
