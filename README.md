@@ -39,7 +39,7 @@ npm install
 - swagger-jsdoc
 
 ### Environment Variables:
-Create a file named `.db` in the project root with the following contents:
+Create a file named `.env` in the project root with the following contents:
 ```bash
 JWT_SECRET=<your_randomly_generated_secret_here>
 PORT=3000
