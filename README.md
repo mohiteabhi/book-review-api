@@ -86,7 +86,7 @@ Server running on port 3000
     - Ensures each user can only submit one review per book.
     - Handled in Review.create(...). If a duplicate INSERT is attempted, SQLite throws a UNIQUE constraint failed error—caught in the controller and translated into HTTP 409 Conflict.
 
-5. ####Pagination:
+5. #### Pagination:
     - Default page size = 10 for books, = 5 for reviews.
     - Simple LIMIT ? OFFSET ? pattern for queries.
     - Clients control page via ?page= and ?limit=.
